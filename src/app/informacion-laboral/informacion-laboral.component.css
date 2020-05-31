@@ -1,0 +1,420 @@
+/* contenedor-Uno */
+#losfondos{
+    background-color:#f4f8f9;
+    background-image: url(../../assets/SVG/UdeA_Egresados_BK_SVG.svg); 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.circulo-usuario-hombre{
+    width: 120px;
+    height: 120px;
+    border: 10px solid #bbdefb;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin-left: 120px;
+    margin-top: 38px;
+    margin-right: 120px;
+    margin-bottom: 10px;
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size:30px;
+}
+
+.circulo-usuario-mujer{
+    width: 120px;
+    height: 120px;
+    border: 10px solid #f8bbd0;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin-left: 120px;
+    margin-top: 38px;
+    margin-right: 120px;
+    margin-bottom: 10px;
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size:30px;
+}
+
+.svg-user{
+    width: 50px;
+}
+
+.icono-user{
+    background-image: url(../../assets/SVG/people.svg);
+    background-position: center;
+}
+
+.name-user{
+    color: #689f38;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.code-user{
+    color: #00000099;
+    text-align: center;
+}
+
+.position-user{
+    font-size: 16px;
+    font-weight: bold;
+    color: #00000099;
+}
+
+.email-user{
+    color: #00000099;
+}
+
+.button-curriculum{
+    border-radius:16px;
+    border-color: #ffc107;
+    color: #ffc107;
+    height: 32px;
+    display: inline-flex;
+    font-size: 14px;
+    word-wrap: none;
+}
+
+.contenedor-uno{
+    border: 1px solid #dcedc8;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.info-user{
+    display: grid;
+    justify-content: center;
+}
+
+.mt{
+    margin-top: 30px;
+}
+
+
+h1, h2, h3, h4, h5{
+    margin-bottom: 0;
+}
+
+caption{
+    padding-top: 0;
+}
+
+/* contenedor-Dos */
+
+/* contenedor-Tres */
+
+.contenedor-tres{
+    border: 1px solid #dcedc8;
+    display: grid;
+}
+
+.caja-titulacion{
+    -webkit-box-shadow: 0px 3px 5px -1px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 3px 5px -1px rgba(0,0,0,1);
+    box-shadow: 0px 3px 5px -1px rgba(0,0,0,1);
+    height: auto;
+    background-color: #ffffff;
+}
+
+.titulo-contacto{
+    color: #8bc34a;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.line-b{
+    border-bottom: 1px solid #dcedc8;
+}
+
+.fle-contacto{
+    color: #8bc34a;
+    font-size: 24px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding: 0;
+}
+
+.estilos-iconos-contac{
+    color: #8bc34a;
+}
+
+.texto-info{
+    color: #00000099;
+    font-size: 12px;
+}
+
+.icon-educacion{
+    color: #ffc900;
+}
+
+.texto-principla-educacon{
+    color: #ffc900;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.total-titulos{
+    color: #00000099;
+    font-size: 14px;
+}
+
+.titulo-gris-inclinado{
+    font-style: oblique;
+    font-size: 12px;
+    color: #00000061;
+}
+
+.texto-p-estudios{
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.caja-institucion{
+    background-color: #fff8eb;
+    margin-left: 15px;
+}
+
+.instituto-area{
+    font-size: 16px;
+    color: #00000099;
+    font-weight:bold;
+    padding-bottom: 5px;
+}
+
+.label-texto-año{
+    font-size: 10px;
+}
+
+.div-fecha{
+    font-size: 14px;
+    color: #ffc009;   
+}
+
+.circulo-icon{
+    background-color: #ffffff;
+    color: #8bc34a !important;
+    border-radius: 50%;
+    height: 48px;
+    width: 48px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: 0px 3px 3px 1px rgba(94,94,94,0.81);
+    -moz-box-shadow: 0px 3px 3px 1px rgba(94,94,94,0.81);
+    box-shadow: 0px 3px 3px 1px rgba(94,94,94,0.81);
+}
+.cuadrado-icon-hombre{
+    background-color: #e3f2fd;
+    color: #1565c0;
+    border:1px solid #cce1f2;
+    border-radius: 12px;
+    height: 48px;
+    width: 48px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cuadrado-icon-mujer{
+    background-color: #fce4ec;
+    color: #fce4ec;
+    border:1px solid #f8bbd0;
+    border-radius: 12px;
+    height: 48px;
+    width: 48px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cuadrado-icon-dos{
+    background-color: #f1f8e9;
+    color: #8bc34a;
+    border:1px solid #e3f2fd;
+    border-radius: 12px;
+    height: 48px;
+    width: 48px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.texto-genero{
+    font-size: 12px;
+    color: #00000099;
+}   
+
+.genero-selecionado-h{
+    font-size: 20px;
+    color: #2196f3;
+    font-weight: bold;
+}
+.genero-selecionado-m{
+    font-size: 20px;
+    color: #e91e63;
+    font-weight: bold;
+}
+
+.texto-discapa{
+    font-size: 12px;
+    color: #00000099;
+}   
+
+.discapa-selecion{
+    font-size: 20px;
+    color: #000000de;
+    font-weight: bold;
+}
+
+.icon-diploma{
+    color: #ffc107;
+    font-size: 40px;
+    display: grid;
+    align-items: center;
+}
+
+.texto-iconos{
+    font-size: 12px;
+    color: #00000099;
+    opacity: 0.4px;
+}
+
+@media(max-width: 766px ){
+
+    .divs-botones-maestria{
+        display: none;
+    }
+    .mobile{
+        margin-bottom: 10px;
+        display: none;
+    }
+
+    .texto-principla-educacon{
+        font-size: 28px;
+    }
+
+    .caja-vacia{
+        display: none;
+    }
+}
+
+.icono-tamaño{
+    font-size: 18px;
+}
+
+.texto-inten-horas{
+    font-size: 10px;
+    color: #00000099;
+    font-weight: 600;
+}
+
+.cantidad-horas{
+    color: #ffc009;
+    font-size: 14px;
+}
+
+.paginator{
+    background-color: #f4f8f9;
+    color: #00000099;
+}
+
+
+.paginator-2{
+    background-color: #f4f8f9;
+    color: #00000099;
+}
+
+.mat-button-wrapper{
+    color: #689f38;
+}
+
+.mat-paginator-page-size{
+    display: none;
+}
+
+.texto-principla-encuesta{
+    color: #8bc34a;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.circulo-icon-encuesta{
+    background-color: #f1f8e9;
+    color: #8bc34a;
+    border-radius: 50%;
+    border:1px solid #dcedc8;
+    height: 40px;
+    width: 40px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-info-encuesta{
+    color: #00000099;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.descripcion-encuesta{
+    font-size: 12px;
+    color: #00000099;
+}
+
+.estilos-iconos-contac{
+    color: #8bc34a;
+}
+
+button:focus{
+    outline: none;
+}
+
+
+
+
+.contenedor-laboral-empreza{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fafafa;
+    -webkit-box-shadow: 0px 5px 9px 0px rgba(117,117,117,0.55);
+    -moz-box-shadow: 0px 5px 9px 0px rgba(117,117,117,0.55);    
+    box-shadow: 0px 5px 9px 0px rgba(117,117,117,0.55);
+}
+
+.contenedor-laboral-ciudad{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.instituto-area-dos{
+    font-size: 14px;
+    color: #00000099;
+    font-weight:bold;
+    padding-bottom: 5px;
+    word-break: break-all;
+
+}
+
+
+.parrafo{
+    color: #0009;
+    font-weight: bold;
+}
+
+.estilos-icono{
+    color: #0000008a;
+}
