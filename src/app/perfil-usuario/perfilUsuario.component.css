@@ -7,7 +7,7 @@
 }
 
 
-.circulo-usuario{
+.circulo-usuario-hombre{
     width: 120px;
     height: 120px;
     border: 10px solid #bbdefb;
@@ -17,6 +17,30 @@
     margin-top: 38px;
     margin-right: 120px;
     margin-bottom: 10px;
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size:30px;
+}
+
+.circulo-usuario-mujer{
+    width: 120px;
+    height: 120px;
+    border: 10px solid #f8bbd0;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin-left: 120px;
+    margin-top: 38px;
+    margin-right: 120px;
+    margin-bottom: 10px;
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size:30px;
+}
+
+.svg-user{
+    width: 50px;
 }
 
 .icono-user{
@@ -82,9 +106,6 @@ caption{
 }
 
 /* contenedor-Dos */
-.contenedor-dos{
-
-}
 
 /* contenedor-Tres */
 
@@ -179,7 +200,7 @@ caption{
 
 .circulo-icon{
     background-color: #ffffff;
-    color: #8bc34a;
+    color: #8bc34a !important;
     border-radius: 50%;
     height: 48px;
     width: 48px;
@@ -190,7 +211,7 @@ caption{
     -moz-box-shadow: 0px 3px 3px 1px rgba(94,94,94,0.81);
     box-shadow: 0px 3px 3px 1px rgba(94,94,94,0.81);
 }
-.cuadrado-icon{
+.cuadrado-icon-hombre{
     background-color: #e3f2fd;
     color: #1565c0;
     border:1px solid #cce1f2;
@@ -201,6 +222,20 @@ caption{
     justify-content: center;
     align-items: center;
 }
+
+
+.cuadrado-icon-mujer{
+    background-color: #fce4ec;
+    color: #fce4ec;
+    border:1px solid #f8bbd0;
+    border-radius: 12px;
+    height: 48px;
+    width: 48px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .cuadrado-icon-dos{
     background-color: #f1f8e9;
@@ -214,6 +249,33 @@ caption{
     align-items: center;
 }
 
+
+.texto-genero{
+    font-size: 12px;
+    color: #00000099;
+}   
+
+.genero-selecionado-h{
+    font-size: 20px;
+    color: #2196f3;
+    font-weight: bold;
+}
+.genero-selecionado-m{
+    font-size: 20px;
+    color: #e91e63;
+    font-weight: bold;
+}
+
+.texto-discapa{
+    font-size: 12px;
+    color: #00000099;
+}   
+
+.discapa-selecion{
+    font-size: 20px;
+    color: #000000de;
+    font-weight: bold;
+}
 
 .icon-diploma{
     color: #ffc107;
@@ -235,9 +297,86 @@ caption{
     }
     .mobile{
         margin-bottom: 10px;
+        display: none;
+    }
+
+    .texto-principla-educacon{
+        font-size: 28px;
+    }
+
+    .caja-vacia{
+        display: none;
     }
 }
 
 .icono-tamaño{
     font-size: 18px;
 }
+
+.texto-inten-horas{
+    font-size: 10px;
+    color: #00000099;
+    font-weight: 600;
+}
+
+.cantidad-horas{
+    color: #ffc009;
+    font-size: 14px;
+}
+
+.paginator{
+    background-color: #f4f8f9;
+    color: #00000099;
+}
+
+
+.paginator-2{
+    background-color: #f4f8f9;
+    color: #00000099;
+}
+
+.mat-button-wrapper{
+    color: #689f38;
+}
+
+.mat-paginator-page-size{
+    display: none;
+}
+
+.texto-principla-encuesta{
+    color: #8bc34a;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.circulo-icon-encuesta{
+    background-color: #f1f8e9;
+    color: #8bc34a;
+    border-radius: 50%;
+    border:1px solid #dcedc8;
+    height: 40px;
+    width: 40px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-info-encuesta{
+    color: #00000099;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.descripcion-encuesta{
+    font-size: 12px;
+    color: #00000099;
+}
+
+.estilos-iconos-contac{
+    color: #8bc34a;
+}
+
+button:focus{
+    outline: none;
+}
+

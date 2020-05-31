@@ -1,4 +1,6 @@
 import {NgModule} from '@angular/core';
+import {MatPaginatorModule} from '@angular/material/paginator';
+
 import {
     MatButtonModule,
     MatIconModule,
@@ -6,7 +8,7 @@ import {
     MatFormFieldModule,
     MatInputModule,
     MatChipsModule,
-    MatCheckboxModule
+    MatCheckboxModule,
 } from '@angular/material';
 
 const MaterialComponents =  [
@@ -16,7 +18,8 @@ const MaterialComponents =  [
         MatFormFieldModule,
         MatInputModule,
         MatChipsModule,
-        MatCheckboxModule
+        MatCheckboxModule,
+        MatPaginatorModule
 ];
 
 @NgModule({
