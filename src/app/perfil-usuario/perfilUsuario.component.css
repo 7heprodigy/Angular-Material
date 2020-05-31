@@ -1,10 +1,17 @@
 /* contenedor-Uno */
+#losfondos{
+    background-color:#f4f8f9;
+    background-image: url(../../assets/SVG/UdeA_Egresados_BK_SVG.svg); 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 
 .circulo-usuario{
     width: 120px;
     height: 120px;
-    border: 9px solid #bbdefb;
-    color: #530000;
+    border: 10px solid #bbdefb;
+    background-color: #ffffff;
     border-radius: 50%;
     margin-left: 120px;
     margin-top: 38px;
@@ -12,13 +19,48 @@
     margin-bottom: 10px;
 }
 
+.icono-user{
+    background-image: url(../../assets/SVG/people.svg);
+    background-position: center;
+}
 
+.name-user{
+    color: #689f38;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.code-user{
+    color: #00000099;
+    text-align: center;
+}
+
+.position-user{
+    font-size: 16px;
+    font-weight: bold;
+    color: #00000099;
+}
+
+.email-user{
+    color: #00000099;
+}
+
+.button-curriculum{
+    border-radius:16px;
+    border-color: #ffc107;
+    color: #ffc107;
+    height: 32px;
+    display: inline-flex;
+    font-size: 14px;
+    word-wrap: none;
+}
 
 .contenedor-uno{
-    border: 1px solid black;
+    border: 1px solid #dcedc8;
     display: grid;
     justify-content: center;
     align-items: center;
+    
 }
 
 .info-user{
@@ -47,11 +89,155 @@ caption{
 /* contenedor-Tres */
 
 .contenedor-tres{
-    border: 1px solid black;
+    border: 1px solid #dcedc8;
     display: grid;
 }
 
 .caja-titulacion{
-    border: 1px solid red;
-    height: 205px;
+    -webkit-box-shadow: 0px 3px 5px -1px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 3px 5px -1px rgba(0,0,0,1);
+    box-shadow: 0px 3px 5px -1px rgba(0,0,0,1);
+    height: auto;
+    background-color: #ffffff;
+}
+
+.titulo-contacto{
+    color: #8bc34a;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.line-b{
+    border-bottom: 1px solid #dcedc8;
+}
+
+.fle-contacto{
+    color: #8bc34a;
+    font-size: 24px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding: 0;
+}
+
+.estilos-iconos-contac{
+    color: #8bc34a;
+}
+
+.texto-info{
+    color: #00000099;
+    font-size: 12px;
+}
+
+.icon-educacion{
+    color: #ffc900;
+}
+
+.texto-principla-educacon{
+    color: #ffc900;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.total-titulos{
+    color: #00000099;
+    font-size: 14px;
+}
+
+.titulo-gris-inclinado{
+    font-style: oblique;
+    font-size: 12px;
+    color: #00000061;
+}
+
+.texto-p-estudios{
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.caja-institucion{
+    background-color: #fff8eb;
+    margin-left: 15px;
+}
+
+.instituto-area{
+    font-size: 16px;
+    color: #00000099;
+    font-weight:bold;
+    padding-bottom: 5px;
+}
+
+.label-texto-año{
+    font-size: 10px;
+}
+
+.div-fecha{
+    font-size: 14px;
+    color: #ffc009;   
+}
+
+.circulo-icon{
+    background-color: #ffffff;
+    color: #8bc34a;
+    border-radius: 50%;
+    height: 48px;
+    width: 48px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: 0px 3px 3px 1px rgba(94,94,94,0.81);
+    -moz-box-shadow: 0px 3px 3px 1px rgba(94,94,94,0.81);
+    box-shadow: 0px 3px 3px 1px rgba(94,94,94,0.81);
+}
+.cuadrado-icon{
+    background-color: #e3f2fd;
+    color: #1565c0;
+    border:1px solid #cce1f2;
+    border-radius: 12px;
+    height: 48px;
+    width: 48px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuadrado-icon-dos{
+    background-color: #f1f8e9;
+    color: #8bc34a;
+    border:1px solid #e3f2fd;
+    border-radius: 12px;
+    height: 48px;
+    width: 48px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.icon-diploma{
+    color: #ffc107;
+    font-size: 40px;
+    display: grid;
+    align-items: center;
+}
+
+.texto-iconos{
+    font-size: 12px;
+    color: #00000099;
+    opacity: 0.4px;
+}
+
+@media(max-width: 766px ){
+
+    .divs-botones-maestria{
+        display: none;
+    }
+    .mobile{
+        margin-bottom: 10px;
+    }
+}
+
+.icono-tamaño{
+    font-size: 18px;
 }
