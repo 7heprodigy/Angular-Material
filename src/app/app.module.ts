@@ -6,6 +6,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { textosDin } from './perfil-usuario/perfilUsuario.component';
 import { MaterialModule } from './material/material.module';
 import { InformacionLaboralComponent } from './informacion-laboral/informacion-laboral.component';
+import { IdiomasComponent } from './idiomas/idiomas.component';
 
 
 
@@ -14,7 +15,8 @@ import { InformacionLaboralComponent } from './informacion-laboral/informacion-l
   declarations: [
     AppComponent,
     textosDin,
-    InformacionLaboralComponent
+    InformacionLaboralComponent,
+    IdiomasComponent
   ],
   imports: [
     BrowserModule,
